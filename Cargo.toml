@@ -1,0 +1,15 @@
+# https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[package]
+name                            = "uvm"
+version                         = "0.1.0"
+edition                         = "2021"
+
+[dependencies]
+bitflags                        = "1"
+bytemuck.version                = "1"
+bytemuck.features               = ["derive"]
+read_write_at                   = "0.1"
+
+[dev-dependencies]
+maulingmonkey-io-adapters.git   = "https://github.com/MaulingMonkey/io-adapters"
